@@ -1,0 +1,159 @@
+body{background-color:#e6e6e6;
+font-family:sans-serif;
+  width:100%;
+}
+.nav-pills {background-color:black;
+  font-family:Anton;
+  color:white;
+  height:75px;
+  font-size:3em;
+  background-attachment:fixed;
+}
+
+a{color:white;}
+.deez{padding:12px 2px;
+}
+.space{background:url("http://www.space.com/images/i/000/056/170/original/outlier-galaxy-ugc-4879-1920.jpg?interpolation=lanczos-none&fit=around|1920:1200&crop=1920:1200;*,*"); center center fixed no-repeat;
+width: 100%;
+background-size: cover;
+  height:1050px;}
+
+.hello{font-size:60px;
+}
+#para{text-align:center;
+color:white;
+  width:1000px;
+  font-size:30px;
+margin:0 auto;
+  
+ 
+}
+q:before {
+    content: open-quote;
+  font-weight: bold;
+}
+
+q:after {
+    content: close-quote;
+  font-weight: bold;
+  
+}
+  
+
+.quote {font-family:Dancing Script;
+color: white;
+  text-align:center;
+  font-size:60px;
+  padding:20px 10px;
+  margin:20px 10px;
+}
+.fb{width:70px;
+height:40px;
+ font-size:40px;
+ }
+
+.btons{position:relative;
+top:-9px;
+  right:10px;
+font-size:15px;
+}
+.up{background-color:black;
+color:white;
+  opacity:0.8;
+  
+}
+#space2{background:url("http://www.hdwallwide.com/wp-content/uploads/2014/03/space-nebulae-HD-wallpaper-1080p.jpg");
+center center fixed no-repeat;
+  width: 100%;
+background-size: cover;
+  height:1160px;
+
+}
+  .btn-primary{background-color:black;
+border-color:black;
+    
+}
+.intro{color:white;
+text-align:center;
+  font-size:34px;
+  padding:20px;
+}
+.tribute{width:498px;
+height:330px;
+  
+}
+a:hover{color:blue;}
+a:active{color:red;}
+a:visited{color:white;}
+
+.table, th, td{
+  border:10px solid black;
+
+}
+.center{ 
+    margin:auto;
+}
+
+.jumbotron{width:1026px;
+height:360px;
+margin:10px auto;
+  background-color:black;
+ border-style:dashed;
+  color:white;
+ 
+  }
+.evan{
+  width:220px;
+ border-radius:50%;
+  position:absolute;
+ 
+  
+}
+
+.skills{font-size:22.5px;
+font-style:oblique;
+}
+.footer{background-color:black;
+height:240px;
+  }
+.cons{font-size:5em;
+  padding:20px 40px;
+}
+.email{
+  color:white;
+  font-size:42px;
+ text-align:center;
+  padding:10px;
+  }
+.number{
+  color:white;
+  text-align:center;
+  font-size:18px;
+}
+.footernum{
+  background-color:#0d0d0d;
+  height:50px;
+  }
+.cp{color:white;
+font-size:16px;
+  text-align:center;
+  padding:5px;
+  }
+@media only screen and (max-width : 992px) {
+  
+  .wraper{margin:auto;
+  text-align:center; 
+  position:absolute;
+  width:100;
+  }
+  .cp{text-align:center;}
+  .footernum{height:50px;
+}
+  .evan{position:relative;
+  top:20px;
+    right:2px;
+  }
+  .jumbotron{margin-bottom:5px;}
+  .footer{height:290px;}
+}
+  
