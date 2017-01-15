@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta name="author" content="Evan Kalvis">
+  <meta name="keywords" content="Front End Developer, initial-sacle=1, user-scalable-0">
+  <meta charset="utf-8">
+
+<meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;">
+
+  <title>Evan Kalvis-Portfolio</title>
+  <link href="https://fonts.googleapis.com/css?family=Anton|Abril+FatFace|Dancing+Script" rel="stylesheet">
+
+</head>
+
+<body id="responsive">
+  <div class="visible-xs visible-sm hidden-md hidden-lg">
+    <div class="nav navbar-inverse navbar-static-top">
+      <div class="container">
+        <a href "#" class="navbar-brand">@ Evan Kalvis</a>
+        <div class="collapse navbar-collapse navHeaderCollapse">
+          <button class="navbar-toggle" data-toggle="collapse" target="navHeaderCollapse">
+    <i class="fa fa-bars" aria-hidden="true"></i>
+          </button>
+          <ul class="nav navbar-right">
+            <li><a href="#my">Contact Me</a></li>
+            <li><a href="#space2">Portfolio</a></li>
+            <li><a href="#main">About Me</a></li>
+            <li><a href="#home">Home</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+  </div>
+  <div class="wraper">
+    <div id="home" class="hidden-xs hidden-sm visible-md visible-lg">
+      <ul class="nav nav-pills navbar-fixed-top">
+        <li class="pull-right"><a href="#my">Contact Me</a></li>
+        <li class="pull-right"><a href="#space2">Portfolio</a></li>
+        <li class="pull-right"><a href="#main">About Me</a></li>
+        <li class="pull-right"><a href="#home">Home</a></li>
+        <li class="deez hidden-xs hidden-sm">@ Evan Kalvis</li>
+
+      </ul>
+    </div>
+    <div class="space">
+      <div id="para">
+        <header class="hello"><br><mark class="up">Welcome to my Portfolio</mark></header>
+
+        <p id="main">I'm aspriring to become a Front End Developer, as it's amazing to see what you can create by typing some coded words into a program that translates it into a webpage. When I'm not coding, even though it's <u>really addictive</u>, I like to play
+          video games and socialise with friends. Eventually when I finish school, I would like to study computer science in a university of my choice and after get a job as a web developer.</p>
+      </div>
+      <div>
+        <p class="quote"><q> I think everybody in this country<br> should learn to program a computer.<br> Learn a computer language.<br> Because it teaches you how to think.</q><br> - <em>Steve Jobs</em>
+        </p>
+      </div>
+      <div class="btnList text-center">
+        <a href="https://www.facebook.com/evan.kalvis" class="btn btn-primary" target="_blank"><i class="fa fa-facebook fb" aria-hidden="true"></i><span class="btons"> Facebook</span></a>
+        <a href="https://github.com/evan17gr" class="btn btn-primary" target="_blank"><i class="fa fa-github fb" aria-hidden="true"></i><span class="btons"> Github</span></a>
+        <a href="https://www.freecodecamp.com/evan17gr" class="btn btn-primary" target="_blank"><i class="fa fa-free-code-camp fb" aria-hidden="true"></i><span class="btons"> FreeCodeCamp</span></a>
+        <a href="https://twitter.com/EvanKalvis" class="btn btn-primary" target="_blank"><i class="fa fa-twitter fb" aria-hidden="true"></i><span class="btons"> Twitter</span></a>
+      </div>
+    </div>
+    <div id="space2">
+      <header class="intro">
+        My portfolio isn't <em>complete</em> yet and I'm still working on some projects
+      </header>
+      <div>
+        <table class="center">
+          <tr>
+            <td>
+              <a href="https://codepen.io/evan17gr/pen/zoNjWr"><img src="https://i.imgsafe.org/23edde791d.png" class="tribute img-responsive"></a>
+            </td>
+            <td><img src="https://i.imgsafe.org/2d37d059ba.png" class="img-responsive tribute"></td>
+          </tr>
+          <tr>
+            <td><img src="https://i.imgsafe.org/2cf79ca4b2.png" class="img-responsive tribute">
+              <td><img src="https://i.imgsafe.org/2d12fe1216.png" class="img-responsive tribute"></td>
+          </tr>
+
+        </table>
+      </div>
+      <div class="jumbotron">
+        <div class="col-md-3"> <img src="https://i.imgsafe.org/2e1b22ead9.jpg" class="evan"></div>
+        <div class="col-md-9">
+          <p><span class="skills">Skills: HTML5, CSS3, Bootstrap, JQuery, Javascript and Microsoft Office</span><br><br>I'm still a beginner, but I really want to master these languages in the future to be able to create and style websites as my career.
+            At the moment my HTML5, CSS3 and Bootstrap knowledge is better and that's why I can style websites but not add very cool animations. Additionally, I have a lot of experience working in teams, solving problems under pressure and I can be relied
+            on to meet deadlines. Finally, I'm a very optimistic person that enjoys working on large projects. </p>
+        </div>
+      </div>
+    </div>
+    <div class="footer" id="my">
+      <div class=" text-center">
+        <a href="https://www.facebook.com/evan.kalvis" target="_blank"><i class="fa fa-facebook cons" aria-hidden="true"></i></a>
+        <a href="https://github.com/evan17gr" target="_blank"><i class="fa fa-github cons" aria-hidden="true"></i></a>
+        <a href="https://www.freecodecamp.com/evan17gr" target="_blank"><i class="fa fa-free-code-camp cons" aria-hidden="true"></i></a>
+        <a href="https://twitter.com/EvanKalvis" target="_blank"><i class="fa fa-twitter cons" aria-hidden="true"></i></a>
+      </div>
+      <p class="email">evankalvis@hotmail.com</p>
+      <p class="number">Mobile number: 07456234889</p>
+    </div>
+    <div class="footernum">
+      <p class="cp">&copy; All rights reserved Evan Kalvis 2016 </p>
+    </div>
+  </div>
+<script>
+$(document).ready(function(){
+ $('a[href^="#"]').on('click', function (e){
+   e.preventDefault();
+   var target=this.hash;
+   var $target=$(target);
+   
+   $('html, body').animate({
+     'scrollTop':$target.offset().top
+   }, 1300, 'swing', function () {
+     window.location.hash=target;
+   });
+ });
+});
+</script>
+</body>
+
+</html>
