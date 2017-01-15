@@ -16,25 +16,6 @@
 </head>
 
 <body id="responsive">
-  <div class="visible-xs visible-sm hidden-md hidden-lg">
-    <div class="nav navbar-inverse navbar-static-top">
-      <div class="container">
-        <a href "#" class="navbar-brand">@ Evan Kalvis</a>
-        <div class="collapse navbar-collapse navHeaderCollapse">
-          <button class="navbar-toggle" data-toggle="collapse" target="navHeaderCollapse">
-    <i class="fa fa-bars" aria-hidden="true"></i>
-          </button>
-          <ul class="nav navbar-right">
-            <li><a href="#my">Contact Me</a></li>
-            <li><a href="#space2">Portfolio</a></li>
-            <li><a href="#main">About Me</a></li>
-            <li><a href="#home">Home</a></li>
-          </ul>
-        </div>
-      </div>
-    </div>
-
-  </div>
   <div class="wraper">
     <div id="home" class="hidden-xs hidden-sm visible-md visible-lg">
       <ul class="nav nav-pills navbar-fixed-top">
@@ -106,22 +87,9 @@
       <p class="cp">&copy; All rights reserved Evan Kalvis 2016 </p>
     </div>
   </div>
-<script>
-$(document).ready(function(){
- $('a[href^="#"]').on('click', function (e){
-   e.preventDefault();
-   var target=this.hash;
-   var $target=$(target);
-   
-   $('html, body').animate({
-     'scrollTop':$target.offset().top
-   }, 1300, 'swing', function () {
-     window.location.hash=target;
-   });
- });
-});
-</script>
+  
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="main.js"></script>
   </body>
 
 </html>
